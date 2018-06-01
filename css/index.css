@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  /*overflow: hidden;*/
+  overflow: hidden;
   text-align: center;
   font-family: 'Dekko', cursive;
 }
@@ -30,7 +30,7 @@ a.item {
   left: 5%;
   right: 5%;
   width: 90%;
-  height: 65%;
+  height: 70%;
   bottom: 0px;
   background: rgba(232, 251, 255, 0.5)
 }
@@ -53,7 +53,7 @@ a.item {
 }
 
 a.header, .sub.header, p {
-  font-size: 1.1rem !important;
+  font-size: 1.05rem !important;
   font-family: 'Dekko', cursive !important;
 }
 
@@ -66,7 +66,7 @@ h1 {
   position: fixed;
   left: 50%;
   transform: translate(-50%, 0);
-  top: 12%;
+  top: 10%;
   font-family: 'Finger Paint', cursive;
   font-size: 2rem;
   border: 3px solid black;
@@ -77,5 +77,5 @@ h1 {
 
 #aboutMe {
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
