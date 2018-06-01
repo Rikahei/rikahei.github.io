@@ -1,0 +1,135 @@
+/************************body**********************/
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+/*selection color*/
+::selection
+{
+	background: #ffbfda;
+	color: #212529;
+}
+p::selection
+{
+	background: #ffbfda;;
+}
+/*navbar*/
+.navbar {
+	background: linear-gradient(to top right, white, #ffbfda);
+}
+
+.navbar-brand {
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 1.8rem;
+}
+
+.navbar-brand span {
+	color: #f73d59;
+}
+
+.navbar-brand, a {
+	color: grey;
+}
+/*MainSlider*/
+.mainSlider {
+	padding-top: 80px;
+	background-image: url("img/shopping.jpg");
+	width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.mainSliderText {
+	margin-top: 200px;
+	padding-right: 50px;
+}
+
+.mainSliderText h1 {
+	font-size: 4rem;
+	color: black;
+	font-family: 'Patua One', cursive;
+}
+
+.mainSliderText span {
+	color: red;
+}
+
+.btn-danger {
+	margin: 10px;
+}
+/*Banner Card*/
+.card-deck {
+	margin: 20px;
+}
+
+.catelog {
+	text-decoration: none;
+	background: rgb(255, 255, 255, 0.6);
+	border-radius: 10px;
+	padding: 10px;
+	margin: auto;
+	display: block;
+    color: #1e1e27;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.catelog:hover {
+	color: #f73d59;
+	text-decoration: none;
+}
+/*Product cards*/
+.cardPro {
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card {
+	border: solid 3px transparent;
+	transition: border 0.4s ease;
+}
+
+.card:hover {
+	text-decoration: none;
+	border: solid 3px #f73d59;
+}
+
+.itemDeck .card {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.itemDeck p {
+	font-size: 22px;
+    font-weight: 600;
+	color: #f73d59;
+}
+
+.itemDeck del {
+	font-size: 10px;
+    font-weight: 600;
+	color: grey;
+}
+
+.newTit {
+	padding: 15px;
+	text-align: center;
+}
+/*Line*/
+hr {
+    border: 0;
+    height: 0; /* Firefox... */
+    width: 50%;
+    color: red;
+    box-shadow: 0 0 10px 1px #f73d59;
+}
+hr:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+
