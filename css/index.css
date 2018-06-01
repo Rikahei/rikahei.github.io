@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Dekko|Finger+Paint');
+
+body {
+  margin: 0;
+  /*overflow: hidden;*/
+  text-align: center;
+  font-family: 'Dekko', cursive;
+}
+
+canvas {
+  height: 100%;
+  width: 100%;
+}
+
+a.item {
+  font-family: 'Dekko', cursive !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  background: rgba(48, 83, 242, 0.8);
+}
+
+.ui.bottom.attached.tab.segment{
+  height: 100%;
+  background: rgba(232, 251, 255, 0.0)
+}
+
+#mainContainer {
+  position: fixed;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 65%;
+  bottom: 0px;
+  background: rgba(232, 251, 255, 0.5)
+}
+
+#mainContainer p {
+    font-weight: bold;
+    color: #000000;
+}
+
+#langGrid {
+  font-family: 'Dekko', cursive !important;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.0)
+}
+
+#frameGrid {
+  font-family: 'Dekko', cursive !important;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.0)
+}
+
+a.header, .sub.header, p {
+  font-size: 1.1rem !important;
+  font-family: 'Dekko', cursive !important;
+}
+
+h3 {
+  font-size: 2rem !important;
+  font-family: 'Dekko', cursive !important;
+}
+
+h1 {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 12%;
+  font-family: 'Finger Paint', cursive;
+  font-size: 2rem;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: .5rem 2rem;
+  background: rgba(255, 255, 255, 0.8)
+}
+
+#aboutMe {
+  margin: auto;
+  width: 80%;
+}

@@ -1,0 +1,142 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+<h1>Li Ka Hei's Portfoilio</h1>
+
+<div id="mainContainer" class="ui container">
+  <!--Tab config-->
+  <div class="ui pointing secondary menu">
+    <a class="item" data-tab="first">Demos</a>
+    <a class="item" data-tab="second" id="tab2">Skills</a>
+    <a class="item active" data-tab="third">About me</a>
+  </div>
+  
+  <!--First Tab - Demo -->
+  <div class="ui bottom attached tab segment" data-tab="first">
+    <div class="ui four doubling cards">
+      <div class="card">
+        <a class="image" href="https://imchat3939.herokuapp.com/">
+          <img src="/img/im_chat.png">
+        </a>
+        <div class="content">
+          <a class="header" href="https://imchat3939.herokuapp.com/">Live Chatroom</a>
+          <div class="meta">
+            <a>Built by NodeJs</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <a class="image" href="#">
+          <img src="/img/online_shop.png">
+        </a>
+        <div class="content">
+          <a class="header" href="#">Online Shop</a>
+          <div class="meta">
+            <a>Built by Bootstrap 4</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="card">
+        <a class="image" href="https://github.com/Rikahei/food_calories_ranking">
+          <img src="/img/food_cal.png">
+        </a>
+        <div class="content">
+          <a class="header" href="https://github.com/Rikahei/food_calories_ranking">Fast Food Calories searcher</a>
+          <div class="meta">
+            <a>Built by Android Studio</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <a class="image" href="#">
+          <img src="/img/patatap.png">
+        </a>
+        <div class="content">
+          <a class="header" href="#">Pata Tap</a>
+          <div class="meta">
+            <a>Simple sound game</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Second Tab - Skills -->
+  <div class="ui bottom attached tab segment" data-tab="second">
+  <div class="ui grid">
+    <div id="langGrid" class="left floated seven wide column">
+      <h3 class="ui header">Language</h3>
+      <div class="ui teal progress" id="htmBar">
+        <div class="bar">
+          <div class="progress"></div>
+        </div>
+        <div class="label"><i class="html5 icon large violet"></i>HTML5</div>
+      </div>
+      
+      <div class="ui teal progress" id="cssBar">
+        <div class="bar">
+          <div class="progress"></div>
+        </div>
+        <div class="label"><i class="css3 alternate icon large violet"></i>CSS3</div>
+      </div>
+      
+      <div class="ui teal progress" id="jsBar">
+        <div class="bar">
+          <div class="progress"></div>
+        </div>
+        <div class="label"><i class="js icon large violet"></i>Javascript</div>
+      </div>
+    </div>
+
+    <div id="frameGrid" class="right floated seven wide column">
+        <h3 class="ui header">FrameWork</h3>
+        
+        <div class="ui shape">
+          <div class="sides">
+            <div class="active side"><i class="react icon massive orange"></i><div class="content">React Js</div></div>
+            <div class="side"><i class="npm icon massive orange"></i><div class="content">Npm</div></div>
+            <div class="side"><i class="node icon massive orange"></i><div class="content">Node Js</div></div>
+            <div class="side"><i class="android icon massive orange"></i><div class="content">Android</div></div> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Third Tab - About me -->
+  <div class="ui bottom attached tab segment active" data-tab="third">
+    <a href="https://github.com/Rikahei"> 
+      <h2 class="ui icon header">
+        <i class="github icon huge"></i>
+        <div class="content">
+          Rikahei
+          <div class="sub header">Visit to my github</div>
+        </div>
+      </h2>
+    </a>
+    <p id="aboutMe" class="ui left aligned segment">Self-taught programmer, love programming very much. 
+    Catching up new technology through Massive Open Online Courses (MOOCs) since two years ago. 
+    Try to learn programming after my web-based application maintained job. I tried different language and framework.
+    Now, I am focus on Web developing and want to become a full stack developer.</p>
+  </div>
+</div>
+  
+<canvas id="myCanvas"></canvas>
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="semantic/dist/semantic.min.js"></script>
+<script src="https://rawgit.com/pshihn/rough/master/dist/rough.min.js"></script>
+<script src="js/bubbleBG.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
