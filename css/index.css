@@ -79,3 +79,17 @@ h1 {
   margin: auto;
   width: 90%;
 }
+
+/* Use a media query to add a break point at 600px: */
+@media screen and (max-width:600px) {
+  #aboutMe {
+    margin: 0 !important;
+    width:100% !important;
+  }
+  h1 {
+    font-size: 1.4rem;
+  }
+  a.item {
+  font-size: 1.1rem;
+  }
+}
